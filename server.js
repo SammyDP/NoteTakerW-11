@@ -2,8 +2,9 @@ const express = require("express");
 const db = require("./db/db.json");
 const fs = require("fs");
 const path = require("path");
+
 //adds unique identifyer using NPM UUID
-const uuid = require("./helper/uuid");
+const uuid = require("./helpers/uuid");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
